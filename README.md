@@ -18,7 +18,7 @@ and initialise them with their respective details as supplied from the bulk sms 
 to = ['263...', '263...']
 
 4.Finally import the send_message function passing the four (username, auth_token,to and message) variables to the send_message variable and call it assigning it to a variable so as to get a response to send the message ie
-from BulkSmsZim.main import send_message
+from BulkSmsZim.text import send_message
 
 response = send_message(username, auth_token, to, message)
 
@@ -26,7 +26,7 @@ response = send_message(username, auth_token, to, message)
 
 FULL USAGE EXAMPLE :
 
-from BulkSmsZim.main import send_message
+from BulkSmsZim.text import send_message
 
 username = 'Your Username'
 auth_token = 'Your API Key'
